@@ -1,0 +1,22 @@
+1. 读取文件：click.log => session: RDD,
+			user.txt =>　user: RDD
+
+			1) return => RDD
+			2) return => sql
+
+2. 注册Schema
+
+3. session join user
+
+
+4. 读取数据库 task，构造一组查询任务
+
+5. 遍历查询任务
+	1) 轮到一个任务，根据task中的条件，进行查询操作，获取一个 SessionJoinUser 集合
+
+
+	2) 对上述集合进行统计聚合的计算（SessionAccumulator）
+		> 打印结果
+
+	3) 对上述集合进行排序（ProductId Compare）
+		> 打印结果

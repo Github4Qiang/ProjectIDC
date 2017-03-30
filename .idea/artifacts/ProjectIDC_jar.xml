@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ProjectIDC:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjectIDC_jar</output-path>
+    <root id="archive" name="ProjectIDC.jar">
+      <element id="module-output" name="ProjectIDC" />
+      <element id="extracted-dir" path="C:/Reposities/com/alibaba/fastjson/1.2.24/fastjson-1.2.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Reposities/mysql/mysql-connector-java/5.1.6/mysql-connector-java-5.1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
